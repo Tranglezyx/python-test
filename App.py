@@ -19,4 +19,14 @@ print(map)
 print(map.keys())
 print(map[1])
 print(map["1"])
-print(map)
+print(id(map))
+a = "fadfadfasdfasdfasdf"
+b = "fadfadfasdfasdfasdf"
+print(a is b)
+print(id(a) == id(b))
+print(id(a))
+print(id("fadfadfasdfasdfasdf"))
+
+if("1" in map):
+    print(map["1"])
+    print("hello")
